@@ -12,7 +12,7 @@ public class Pato_Real extends Pato implements Voar, Emitir_Som{
 	  }
 	  
 	  @Override
-	  public void som() {
+	  public void quack() {
 		  System.out.println("Quack!Quack!Quack!");
 		
 	  }
@@ -22,4 +22,5 @@ public class Pato_Real extends Pato implements Voar, Emitir_Som{
 		  System.out.println("Estou voando!");
 		
 	  }
+
 }

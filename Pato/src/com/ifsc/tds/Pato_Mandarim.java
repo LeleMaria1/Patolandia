@@ -12,14 +12,13 @@ public class Pato_Mandarim extends Pato implements Voar, Emitir_Som{
 	  }
 	  
 	  @Override
-	  public void som() {
-		  System.out.println("Quack!Quack!Quack!");
+	  public void quack() {
+		  
 		
 	  }
 
 	  @Override
 	  public void voa() {
-		  System.out.println("Estou voando!");
 		
 	  }
 }
